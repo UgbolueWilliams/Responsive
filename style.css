@@ -300,3 +300,23 @@ background: rgba(226, 0, 0, 0.7);
     margin-right: 30px;
     border-radius: 50%;
 }
+
+.testimonial-col p{
+    padding:0;
+}
+
+.testimonial-col h3{
+    margin-top:15px;
+    text-align:left;
+}
+
+.testimonial -col .fa{
+   color:#f44336; 
+}
+
+@media(max-width:700px){
+    .testimonial-col img{
+        margin-left:0;
+        margin-right:15px;
+    }
+}
